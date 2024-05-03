@@ -1,0 +1,29 @@
+{
+  "name": "studio14",
+  "version": "0.1.0",
+  "description": "Block and other build scripts for Studio14 Theme",
+  "author": "Studio14",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^21.0.2",
+    "cssnano": "^5.0.2",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "postcss": "^8.2.15",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@wordpress/create-block": "^3.5.1"
+  }
+}

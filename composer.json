@@ -1,0 +1,16 @@
+{
+  "name": "studio14/block-theme",
+  "description": "Studio14 Block Theme Starter",
+  "type": "project",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "Damilare Shobowale",
+      "email": "oluwadamilareshobowale@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {"Studio14\\": "./core"}
+  }
+}

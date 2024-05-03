@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "studio14-blocks/card-block",
+  "version": "0.1.0",
+  "title": "Card Block",
+  "category": "studio14-element",
+  "icon": "welcome-write-blog",
+  "description": "Display Card Block",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Enter Title"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Enter Subtitle"
+    }
+  },
+  "textdomain": "studio14",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
