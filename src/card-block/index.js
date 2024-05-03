@@ -18,14 +18,14 @@ import './style.scss';
  * Internal dependencies
  */
 import Edit from './edit';
-import Carousel from './block.json';
+import CardBlock from './block.json';
 
 /**
  * Every block starts by registering a new block type definition.
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-registerBlockType( Carousel , {
+registerBlockType( CardBlock , {
     edit: Edit,
     save: ( props ) => { return null }
 });
